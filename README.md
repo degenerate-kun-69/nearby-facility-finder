@@ -1,0 +1,2 @@
+# Nearby Facility finder
+A python application that uses geoapify's free API to find nearby public facilities such as hospitals, police stations and schools. It also maintains a database and cache of everything fetched previously to reduce the API calls.

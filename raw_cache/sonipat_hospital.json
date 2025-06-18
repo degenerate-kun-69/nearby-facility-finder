@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Eye-Q Super Speciality Eye Hospitals, Sonipat",
+    "type": "hospital",
+    "address": "Eye-Q Super Speciality Eye Hospitals, Sonipat, SH20, Sonipat - 131001, Haryana, India",
+    "lat": 28.982471399839262,
+    "lon": 77.0214075
+  },
+  {
+    "name": "Civil Hospital, Sonipat",
+    "type": "hospital",
+    "address": "Civil Hospital, Sonipat, NH352A, Sonipat - 131001, Haryana, India",
+    "lat": 28.99064859983841,
+    "lon": 77.03631405885531
+  },
+  {
+    "name": "Jankidas Kapur Memorial Hospital",
+    "type": "hospital",
+    "address": "Jankidas Hospital, SH20, Sonipat - 131001, Haryana, India",
+    "lat": 29.00282664983713,
+    "lon": 77.02874520304884
+  },
+  {
+    "name": "Kalawati Hospital, Sonipat",
+    "type": "hospital",
+    "address": "Kalawati Hospital, Sonipat, NH352A, Sonipat - 131001, Haryana, India",
+    "lat": 28.99211549983826,
+    "lon": 77.03476349999998
+  },
+  {
+    "name": "Aarogyadham Charitable Eye Hospital",
+    "type": "hospital",
+    "address": "Aarogyadham Charitable Eye Hospital, SH20, Sonipat - 131001, Haryana, India",
+    "lat": 28.977744099839764,
+    "lon": 77.02314559999999
+  }
+]

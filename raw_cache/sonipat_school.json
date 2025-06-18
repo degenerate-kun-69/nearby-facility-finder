@@ -1,0 +1,37 @@
+[
+  {
+    "name": "DAV School",
+    "type": "school",
+    "address": "DAV School, SH20, Sonipat - 131001, Haryana, India",
+    "lat": 29.000328449837404,
+    "lon": 77.03856322658908
+  },
+  {
+    "name": "Huda Primary School",
+    "type": "school",
+    "address": "Huda Primary School, SH20, Sonipat - 131001, Haryana, India",
+    "lat": 29.004912149836922,
+    "lon": 77.0393903706271
+  },
+  {
+    "name": "Jankidas Kapur Public School",
+    "type": "school",
+    "address": "Jankidas Kapur Public School, SH20, Sonipat - 131001, Haryana, India",
+    "lat": 29.001268049837293,
+    "lon": 77.02853980233098
+  },
+  {
+    "name": "Unknown",
+    "type": "school",
+    "address": "SH20, Sonipat - 131001, Haryana, India",
+    "lat": 28.993476299838115,
+    "lon": 77.03750474267909
+  },
+  {
+    "name": "Unknown",
+    "type": "school",
+    "address": "SH20, Sonipat - 131001, Haryana, India",
+    "lat": 28.994458549838015,
+    "lon": 77.03715813636576
+  }
+]
