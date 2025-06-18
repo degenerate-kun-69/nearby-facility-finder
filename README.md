@@ -25,4 +25,21 @@ A python application that uses geoapify's free API to find nearby public facilit
 git clone https://github.com/degenerate-kun-69/nearby-facility-finder
 
 cd nearby-facility-finder
+
 ```
+2. Install requirements
+```bash
+pip install python-dotenv dotenv requests urllib3
+```
+3. Get a Geoapify key
+- Register at [Geoapify](https://www.geoapify.com/)
+
+4. Configure Environment
+- Create a `.env` file in the root directory
+```env
+GEOAPIFY_API_KEY=<YOUR_API_KEY>
+```
+5. Run App
+```bash
+python3 main.py
+``` 
