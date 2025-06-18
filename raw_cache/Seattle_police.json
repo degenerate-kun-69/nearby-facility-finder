@@ -1,0 +1,23 @@
+[
+  {
+    "name": "West Precinct",
+    "type": "police",
+    "address": "West Precinct, 810 Virginia Street, Seattle, WA 98101, United States of America",
+    "lat": 47.616285450027334,
+    "lon": -122.3366060442369
+  },
+  {
+    "name": "Seattle Police Department",
+    "type": "police",
+    "address": "Seattle Police Department, 610 5th Avenue, Seattle, WA 98104, United States of America",
+    "lat": 47.604385500030034,
+    "lon": -122.32936154147063
+  },
+  {
+    "name": "East Precinct",
+    "type": "police",
+    "address": "East Precinct, East Pine Street, Seattle, WA 98122, United States of America",
+    "lat": 47.61497915002763,
+    "lon": -122.31725524478404
+  }
+]

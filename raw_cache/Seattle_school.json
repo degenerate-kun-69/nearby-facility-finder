@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Northwest School",
+    "type": "school",
+    "address": "The Northwest School, 1415 Summit Avenue, Seattle, WA 98122, United States of America",
+    "lat": 47.61346355002797,
+    "lon": -122.3264090394953
+  },
+  {
+    "name": "Seattle World School",
+    "type": "school",
+    "address": "Seattle World School, 1700 East Union Street, Seattle, WA 98122, United States of America",
+    "lat": 47.613673750027914,
+    "lon": -122.30955931138647
+  },
+  {
+    "name": "Seattle Classical Christian School",
+    "type": "school",
+    "address": "Seattle Classical Christian School, 172 20th Avenue, Seattle, WA 98122, United States of America",
+    "lat": 47.603318200030294,
+    "lon": -122.30596249975315
+  },
+  {
+    "name": "Interagency Alder Academy",
+    "type": "school",
+    "address": "Interagency Alder Academy, 1211 East Alder Street, Seattle, WA 98122, United States of America",
+    "lat": 47.60479590002995,
+    "lon": -122.3155949
+  },
+  {
+    "name": "Puget Sound Community School",
+    "type": "school",
+    "address": "Puget Sound Community School, Maynard Alley South, Seattle, WA 98104, United States of America",
+    "lat": 47.596340800031854,
+    "lon": -122.3241284
+  }
+]

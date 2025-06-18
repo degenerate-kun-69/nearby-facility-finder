@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Virginia Mason Hospital & Seattle Medical Center",
+    "type": "hospital",
+    "address": "Virginia Mason Hospital & Seattle Medical Center, 1100 9th Avenue, Seattle, WA 98101, United States of America",
+    "lat": 47.61016810002873,
+    "lon": -122.32788525305165
+  },
+  {
+    "name": "Swedish First Hill Medical Center",
+    "type": "hospital",
+    "address": "Swedish First Hill Medical Center, 747 Broadway, Seattle, WA 98122, United States of America",
+    "lat": 47.60868040002906,
+    "lon": -122.32266206832728
+  },
+  {
+    "name": "Swedish Medical Center Cherry Hill Campus",
+    "type": "hospital",
+    "address": "Swedish Medical Center Cherry Hill Campus, 500 17th Avenue, Seattle, WA 98122, United States of America",
+    "lat": 47.60711215002942,
+    "lon": -122.31090400090531
+  },
+  {
+    "name": "The Seattle Facial Plastic Surgery Center",
+    "type": "hospital",
+    "address": "The Seattle Facial Plastic Surgery Center, 1101 Marion Street, Seattle, WA 98104, United States of America",
+    "lat": 47.60917030002894,
+    "lon": -122.32420520000001
+  }
+]
