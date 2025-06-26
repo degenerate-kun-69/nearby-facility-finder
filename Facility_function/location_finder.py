@@ -1,6 +1,6 @@
 # location_finder.py
-from Facility_function.api_handler import GeoapifyHandler
-from Facility_function.db_handler import DBHandler
+from api_handler import GeoapifyHandler
+from db_handler import DBHandler
 import json
 import os
 
