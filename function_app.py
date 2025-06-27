@@ -1,27 +1,32 @@
 import azure.functions as func
-import datetime
-import json
 import logging
+import os
+from Facility_function.handler import handle_facility_request  # <- updated import
 
 app = func.FunctionApp()
 
 @app.route(route="facility_function", auth_level=func.AuthLevel.FUNCTION)
 def facility_function(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('Python HTTP trigger function processed a request.')
+    logging.info('Received HTTP request.')
 
-    name = req.params.get('name')
-    if not name:
+    address = req.params.get('address')
+    if not address:
         try:
             req_body = req.get_json()
         except ValueError:
-            pass
-        else:
-            name = req_body.get('name')
+            req_body = {}
+        address = req_body.get('address')
 
-    if name:
-        return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
-    else:
-        return func.HttpResponse(
-             "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
-             status_code=200
-        )
+    if not address:
+        # Serve HTML if no address is provided
+        html_path = os.path.join(os.path.dirname(__file__), 'static', 'index.html')
+        with open(html_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+        return func.HttpResponse(html_content, mimetype="text/html")
+
+    try:
+        result = handle_facility_request(address)
+        return func.HttpResponse(result, status_code=200)
+    except Exception as e:
+        logging.error(f"Handler error: {e}")
+        return func.HttpResponse("Internal Server Error", status_code=500)

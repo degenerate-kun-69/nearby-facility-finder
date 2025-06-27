@@ -1,4 +1,5 @@
 .env
 /env
+/venv2
 .python_packages
 __pycache__

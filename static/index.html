@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facility Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+    button {
+      background-color: #00c292;
+      color: white;
+      cursor: pointer;
+    }
+    #response {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 8px;
+      background-color: #1e1e1e;
+      width: 400px;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <h1>Facility Finder</h1>
+  <input type="text" id="address" placeholder="Enter address" />
+  <button onclick="submitAddress()">Submit</button>
+  <div id="response"></div>
+
+  <script>
+    async function submitAddress() {
+      const address = document.getElementById('address').value;
+      const responseDiv = document.getElementById('response');
+
+      if (!address) {
+        responseDiv.textContent = "Please enter an address.";
+        return;
+      }
+
+      try {
+        const response = await fetch(`http://localhost:7071/api/facility_function?address=${encodeURIComponent(address)}`);
+        const text = await response.text();
+        responseDiv.textContent = text.replace(/\n/g, '<br>');
+      } catch (error) {
+        responseDiv.textContent = "Error contacting the function: " + error;
+      }
+    }
+  </script>
+</body>
+</html>
