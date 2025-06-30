@@ -2,7 +2,8 @@ import azure.functions as func
 import logging
 import os
 from Facility_function.handler import handle_facility_request  # <- updated import
-
+from dotenv import load_dotenv
+load_dotenv()
 app = func.FunctionApp()
 
 @app.route(route="facility_function", auth_level=func.AuthLevel.ANONYMOUS)

@@ -53,9 +53,9 @@
       }
 
       try {
-        const response = await fetch(`http://localhost:7071/api/facility_function?address=${encodeURIComponent(address)}`);
+        const response = await fetch(`https://facilityfinder-func-enasckbtdnegeycp.canadacentral-01.azurewebsites.net/api/facility_function?address=${encodeURIComponent(address)}`);
         const text = await response.text();
-        responseDiv.textContent = text.replace(/\n/g, '<br>');
+        responseDiv.textContent = text;
       } catch (error) {
         responseDiv.textContent = "Error contacting the function: " + error;
       }
