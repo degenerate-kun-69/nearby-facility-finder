@@ -5,7 +5,7 @@ from Facility_function.handler import handle_facility_request  # <- updated impo
 
 app = func.FunctionApp()
 
-@app.route(route="facility_function", auth_level=func.AuthLevel.FUNCTION)
+@app.route(route="facility_function", auth_level=func.AuthLevel.ANONYMOUS)
 def facility_function(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Received HTTP request.')
 
